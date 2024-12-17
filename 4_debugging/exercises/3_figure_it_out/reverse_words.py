@@ -35,5 +35,5 @@ def reverse_words(text: str) -> str:
     for word in words:
         result = word + ' ' + result
         
-    result = result[:-1]g
+    result = result[:-1]
     return result
